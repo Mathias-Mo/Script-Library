@@ -25,6 +25,10 @@ if(substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip'))
   header('Content-Encoding: gzip');
   ob_start('ob_gzhandler');
 }
+else
+{
+  ob_start();
+}
 
 /*
 * Put your javascript content here
@@ -45,7 +49,8 @@ $content = ob_get_contents();
 ob_end_clean();
 
 /*
-* Call again gz handler
+* Call again gz handler. This mask the absence of 
+* the first call
 * Notice: Without calling again, content becomes 
 *         not compressed
 */
