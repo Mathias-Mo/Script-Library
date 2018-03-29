@@ -1,2 +1,9 @@
 # Script-Library
-Different scripts for repeated processes
+
+Collection of different scripts for recurrent employed processes
+
+## PHP
+
+### Compression
+
+- gzip_php2js.js
