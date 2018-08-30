@@ -16,4 +16,10 @@ Collection of different scripts for recurrent employed processes. Also, a lot of
 
 - splitString.php
 
-###
+### Convert
+
+## Python
+
+### Convert
+
+ - convertBinary2Decimal.py
