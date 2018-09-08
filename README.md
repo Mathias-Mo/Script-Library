@@ -20,6 +20,8 @@ Collection of different scripts for recurrent employed processes. Also, a lot of
 
 ## Python
 
-### Convert
+### Math
 
  - convertBinary2Decimal.py
+ - gcd.py
+ - MillerRabin.py
